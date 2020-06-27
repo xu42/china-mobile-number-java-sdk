@@ -6,11 +6,11 @@
 
     <groupId>com.github.xu42</groupId>
     <artifactId>china-mobile-number</artifactId>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
     <packaging>jar</packaging>
 
     <name>${project.groupId}:${project.artifactId}</name>
-    <description>China Mobile Check</description>
+    <description>China Mobile Number Utils</description>
     <url>https://github.com/xu42/china-mobile-number-java-sdk</url>
 
     <licenses>
