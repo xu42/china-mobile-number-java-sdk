@@ -1,1 +1,1 @@
-# china-mobile-number-java-sdk
+# China Mobile Number Java SDK
