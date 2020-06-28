@@ -1,6 +1,12 @@
-# China Mobile Number SDK for Java [![Build Status](https://travis-ci.org/xu42/china-mobile-number-java-sdk.png?branch=master)](https://travis-ci.org/xu42/china-mobile-number-java-sdk)
+China Mobile Number SDK for Java
+================================
 
-## Getting Started
+[![Build Status](https://travis-ci.org/xu42/china-mobile-number-java-sdk.png?branch=master)](https://travis-ci.org/xu42/china-mobile-number-java-sdk)
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.github.xu42/china-mobile-number/badge.svg?style=flat)](https://maven-badges.herokuapp.com/maven-central/com.github.xu42/china-mobile-number)
+[![Code Coverage](https://codecov.io/github/xu42/china-mobile-number-java-sdk/coverage.svg)](https://codecov.io/gh/xu42/china-mobile-number-java-sdk)
+
+Getting Started
+---------------
 
 #### Install the SDK ####
 
@@ -23,7 +29,8 @@ ChinaMobileOperatorEnum operator = ChinaMobileNumber.getOperator("13800138000");
 ```
 
 
-## Building From Source
+Building From Source
+---------------
 
 Once you check out the code from GitHub, you can build it using Maven. 
 To disable test and the GPG-signing in the build, use:

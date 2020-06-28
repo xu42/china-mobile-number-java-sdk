@@ -1,18 +1,12 @@
 language: java
 os: linux
 dist: trusty
-jdk: oraclejdk8
+jdk:
+  - oraclejdk8
+  - openjdk8
 
 install:
-  - mvn install -DskipTests=true -Dmaven.javadoc.skip=true -Dgpg.skip=true -B -V
+  - mvn install -Dgpg.skip=true -B -V
 
-script:
-  - mvn install -DskipTests=true -Dmaven.javadoc.skip=true -Dgpg.skip=true -B -V
-
-cache:
-  directories:
-    - $HOME/.m2
-
-notifications:
-  email:
-    on_success: never
+after_success:
+  - bash <(curl -s https://codecov.io/bash)
