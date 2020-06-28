@@ -3,7 +3,7 @@ China Mobile Number SDK for Java
 
 [![Build Status](https://travis-ci.org/xu42/china-mobile-number-java-sdk.png?branch=master)](https://travis-ci.org/xu42/china-mobile-number-java-sdk)
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.github.xu42/china-mobile-number/badge.svg?style=flat)](https://maven-badges.herokuapp.com/maven-central/com.github.xu42/china-mobile-number)
-[![Code Coverage](https://codecov.io/github/xu42/china-mobile-number-java-sdk/coverage.svg)](https://codecov.io/gh/xu42/china-mobile-number-java-sdk)
+[![Code Coverage](https://codecov.io/github/xu42/china-mobile-number-java-sdk/branch/master/graph/badge.svg)](https://codecov.io/gh/xu42/china-mobile-number-java-sdk)
 
 Getting Started
 ---------------
